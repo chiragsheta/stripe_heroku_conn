@@ -366,13 +366,13 @@ def currency_for_country(country)
 
   case country
   when 'us'
-    'usd'
+    'sgd'
   when 'my'
-    'myr'
+    'sgd'
   when 'nl'
-    'eur'
+    'sgd'
   else
-    'usd'
+    'sgd'
   end
 end
 
